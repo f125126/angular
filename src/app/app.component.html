@@ -1,0 +1,413 @@
+<!-- <hello name="{{ name }}"></hello>
+<h1>Mohammed Fayazuddin</h1>
+<p>Start editing to see some magic happen :)</p> -->
+<head>
+  <link rel="shortcut icon" href="assets/logo_icon2.jpg" style="width: 10px;" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Signika+Negative:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <title>MDF's Kitchen</title>
+  <div class="flex position container">
+    <div style="width: 500px;" class="container">
+      <h3 class="logo"></h3>
+    </div>
+    <div class="navigationbar">
+      <a href="#" class="active">Menu order online</a>
+      <a href="#" style="word-wrap: normal;">About us</a>
+      <a href="#" style="word-wrap: normal;">Booking</a>
+      <a href="#" style="word-wrap: normal;">Contact</a>
+    </div>
+  </div>
+</head>
+<body>
+  <div style="margin-left: 220px; margin-top: 5px;">
+    <table>
+      <tr>
+        <td>
+          <p
+            style="font-family: 'Dancing Script', cursive,Open Sans Condensed;font-size: 30px;"
+          >
+            Veg & Non Veg
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <img
+              src="[test]"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item1" class="card-footer" style="margin-bottom: 15px;">
+                <b>Margerita</b>
+              </h4>
+              <Button class="btn" id="btn_1" onclick="btn_1()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Chilli_Pepper.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item2" class="card-footer"><b>Chilli Pepper</b></h4>
+              <Button class="btn" id="btn_2" onclick="btn_2()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Bacon_Pizza.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item3" class="card-footer" style="margin-left: 55px;">
+                <b>Bacon</b>
+              </h4>
+              <Button class="btn" id="btn_3" onclick="btn_3()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Mushroom_Pizza.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item4" class="card-footer"><b>Mushroom</b></h4>
+              <Button class="btn" id="btn_4" onclick="btn_4()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Veg_Pizza.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item5" class="card-footer"><b>Veg</b></h4>
+              <Button class="btn" id="btn_5" onclick="btn_5()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Pepperoni _Pizza.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item6" class="card-footer"><b>Pepperoni</b></h4>
+              <Button id="btn_6" class="btn" onclick="btn_6()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Salami_Pizza.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item7" class="card-footer"><b>Salami</b></h4>
+              <Button id="btn_7" class="btn" onclick="btn_7()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Shrimp_Pizza.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4 id="item8" class="card-footer"><b>Shrimp</b></h4>
+              <Button id="btn_8" class="btn" onclick="btn_8()"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p
+            style="font-family: 'Dancing Script', cursive,Open Sans Condensed;font-size: 30px;"
+          >
+            Chicken Varieties
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Chicken_Golden_Delight.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4
+                id="item9"
+                class="card-footer"
+                style="margin-left:5px;font-size:18px"
+              >
+                <b>Chicken Golden Delight</b>
+              </h4>
+              <Button id="btn_9" onclick="btn_9()" class="btn"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Chicken_Sausage.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4
+                id="item10"
+                class="card-footer"
+                style="margin-left:23px;font-size:18px"
+              >
+                <b>Chicken Sausage</b>
+              </h4>
+              <Button id="btn_10" onclick="btn_10()" class="btn"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Pepper_Barbeque_Chicken.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4
+                id="item11"
+                class="card-footer"
+                style="margin-left:5px;font-size: 17.75px;"
+              >
+                <b>Pepper Barbeque Chicken</b>
+              </h4>
+              <Button id="btn_11" onclick="btn_11()" class="btn"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <img
+              src="assets/pizza images/Pepper_Barbeque_&_Onion.jpg"
+              alt="Avatar"
+              style="width:100%;border-radius: 5px 5px 0 0;"
+            />
+            <div class="card-container">
+              <h4
+                id="item12"
+                class="card-footer"
+                style="margin-left:5px;font-size: 16.75px;"
+              >
+                <b>Pepper Barbeque & Onion</b>
+              </h4>
+              <Button id="btn_12" onclick="btn_12()" class="btn"
+                >Order now</Button
+              >
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3 style="margin-left: 65px;">Download our App</h3>
+          <table>
+            <tr>
+              <td>
+                <a href="https://play.google.com/store/apps"
+                  ><img
+                    src="assets/playstore.jpg"
+                    alt=""
+                    style="width: 50px; height: 50px; margin-left: 30px;"
+                /></a>
+                <!-- <img src="assets/playstore.jpg" alt="" style="width: 50px; height: 50px; margin-left: 30px;"> -->
+              </td>
+              <td>
+                <a href="https://www.apple.com/in/app-store/"
+                  ><img
+                    src="assets/apple-logo.jpg"
+                    alt=""
+                    style="width: 100px; height: 50px;"
+                /></a>
+              </td>
+            </tr>
+          </table>
+          <p>Download App for Android and ios mobile.</p>
+        </div>
+        <div class="footer-col-2">
+          <img
+            src="assets/logo3.jpg"
+            id="img1"
+            alt=""
+            style="width: 205px; height: 40px; margin-bottom: 0;"
+          />
+          <p style="margin-top: 0;margin-left: 7px;">
+            Visit Eat & Share the Experience
+          </p>
+        </div>
+        <div class="footer-col-3">
+          <h3 style="margin-left: 40px;">Follow us</h3>
+          <ul style="cursor: pointer;">
+            <a style="text-decoration: none;" href="https://www.facebook.com/"
+              ><li>FaceBook</li></a
+            >
+            <a style="text-decoration: none;" href="https://twitter.com/"
+              ><li>Twitter</li></a
+            >
+            <a style="text-decoration: none;" href="https://www.Instagram.com/"
+              ><li>Instagram</li></a
+            >
+            <a style="text-decoration: none;" href="https://www.Youtube.com/"
+              ><li>YouTube</li></a
+            >
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3 style="margin-left: 30px;">Useful Links</h3>
+          <ul style="cursor: pointer;">
+            <li>Sitemap</li>
+            <li>Return Policy</li>
+            <li>Blog Post</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<div class="modal-container">
+  <div class="modal">
+    <p
+      style="font-family: 'Open Sans Condensed', sans-serif,'Signika Negative', sans-serif; font-weight: bold; font-size: 20px"
+    >
+      Item:<input type="text" id="popupitemname" />
+    </p>
+    <p
+      style="font-family: 'Open Sans Condensed', sans-serif,'Signika Negative', sans-serif; font-weight: bold; font-size: 20px"
+    >
+      Size:
+      <select id="sizeSelect">
+        <option class="options" value="">Select size</option>
+        <option class="options" value="small">Small</option>
+        <option class="options" value="medium">Medium</option>
+        <option class="options" value="large">Large</option>
+      </select>
+    </p>
+    <p
+      style="font-family: 'Open Sans Condensed', sans-serif,'Signika Negative', sans-serif; font-weight: bold; font-size: 20px"
+    >
+      Toppings
+    </p>
+    <label class="checklabel">
+      Onions
+      <input type="checkbox" name="toppings1" id="toppings1" />
+      <span class="checkbox"> </span>
+    </label>
+    <label class="checklabel">
+      Brocoli
+      <input type="checkbox" name="toppings2" id="toppings2" />
+      <span class="checkbox"> </span>
+    </label>
+    <label class="checklabel">
+      Sausage
+      <input type="checkbox" name="toppings3" id="toppings3" />
+      <span class="checkbox"> </span>
+    </label>
+    <label class="checklabel">
+      Anchovies
+      <input type="checkbox" name="toppings4" id="toppings4" />
+      <span class="checkbox"> </span>
+    </label>
+    <div>
+      <p
+        style="font-family: 'Open Sans Condensed', sans-serif,'Signika Negative', sans-serif; font-weight: bold; font-size: 20px"
+      >
+        Other
+      </p>
+      <label class="checklabel">
+        Extra Cheese
+        <input type="checkbox" name="extras1" id="extras1" />
+        <span class="checkbox"> </span>
+      </label>
+      <label class="checklabel">
+        Extra Spicy
+        <input type="checkbox" name="extras2" id="extras2" />
+        <span class="checkbox"> </span>
+      </label>
+    </div>
+    <div class="popup-img">
+      <div id="itemimg" style="width:100%;border-radius: 5px 5px 0 0;"></div>
+      <!-- <img src="assets/pizza images/Chicken_Sausage.jpg" alt="Avatar" style="width:100%;border-radius: 5px 5px 0 0;"> -->
+    </div>
+    <!-- <button style="margin-left: 200px; margin-top: 10px; width: 120px;" onclick="showfunc()" href="" class="btn">click</button> -->
+    <button
+      style="margin-left: 200px; margin-top: 30px; width: 120px;"
+      onclick="showfunc()"
+      href=""
+      class="btn"
+    >
+      Next
+    </button>
+  </div>
+</div>
